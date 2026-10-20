@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lời nhắn yêu thương 💌</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <a class="logo" href="index.html">🌷 20/10</a>
+        <div class="nav-links">
+            <a href="index.html">Trang chủ</a>
+            <a href="me.html">Mẹ</a>
+            <a href="chi.html">Chị</a>
+            <a href="album.html">Album</a>
+            <a href="qua.html">Quà tặng</a>
+            <a href="loi-nhan.html">Lời nhắn</a>
+        </div>
+    </nav>
+
+    <main class="container center">
+        <p class="eyebrow">A MESSAGE FROM THE HEART</p>
+        <h1 class="script-font">Một lời nhắn dành riêng 💌</h1>
+
+        <div class="message-box">
+            <div style="font-size:65px">💌</div>
+            <h2>Điều bất ngờ dành cho mẹ và chị</h2>
+
+            <p id="surpriseText">
+                Nhấn nút bên dưới để mở một lời chúc ngẫu nhiên nhé! 💗
+            </p>
+
+            <div class="buttons">
+                <button id="surpriseButton" class="btn">
+                    ✨ Mở lời chúc
+                </button>
+                <button class="btn secondary"
+                        onclick="document.getElementById('surpriseText').textContent='Con yêu mẹ và chị rất nhiều! Chúc hai người luôn bình an, mạnh khỏe và hạnh phúc. 💗'">
+                    💕 Lời nhắn đặc biệt
+                </button>
+            </div>
+        </div>
+
+        <a class="btn" href="index.html">🏠 Trở về trang chủ</a>
+    </main>
+
+    <footer>Yêu thương đôi khi bắt đầu từ những điều nhỏ bé nhất 🌷</footer>
+
+    <audio id="bgMusic" src="music/normal-no-more.mp3"
+           loop preload="metadata"></audio>
+    <button id="musicButton" class="music-button">🎵 Phát nhạc</button>
+</body>
+</html>
